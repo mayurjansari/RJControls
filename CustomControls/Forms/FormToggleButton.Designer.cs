@@ -1,4 +1,4 @@
-﻿namespace CustomControls.Testing
+﻿namespace CustomControls.Test
 {
     partial class FormToggleButton
     {
@@ -41,12 +41,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.rjToggleButton4 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton5 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton6 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton3 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton2 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +61,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(330, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 24);
+            this.label1.Size = new System.Drawing.Size(298, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "ToggleButton - C# WinForm";
             // 
@@ -181,97 +175,6 @@
             this.label11.TabIndex = 35;
             this.label11.Text = "Dark theme";
             // 
-            // rjToggleButton4
-            // 
-            this.rjToggleButton4.Location = new System.Drawing.Point(681, 356);
-            this.rjToggleButton4.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton4.Name = "rjToggleButton4";
-            this.rjToggleButton4.OffBackColor = System.Drawing.Color.LightSteelBlue;
-            this.rjToggleButton4.OffToggleColor = System.Drawing.Color.LightSteelBlue;
-            this.rjToggleButton4.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(94)))), ((int)(((byte)(71)))));
-            this.rjToggleButton4.OnToggleColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(89)))), ((int)(((byte)(130)))));
-            this.rjToggleButton4.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton4.SolidStyle = false;
-            this.rjToggleButton4.TabIndex = 39;
-            this.rjToggleButton4.UseVisualStyleBackColor = true;
-            // 
-            // rjToggleButton5
-            // 
-            this.rjToggleButton5.Checked = true;
-            this.rjToggleButton5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.rjToggleButton5.Location = new System.Drawing.Point(718, 251);
-            this.rjToggleButton5.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton5.Name = "rjToggleButton5";
-            this.rjToggleButton5.OffBackColor = System.Drawing.Color.LightCoral;
-            this.rjToggleButton5.OffToggleColor = System.Drawing.Color.SlateGray;
-            this.rjToggleButton5.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.rjToggleButton5.OnToggleColor = System.Drawing.Color.Fuchsia;
-            this.rjToggleButton5.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton5.SolidStyle = false;
-            this.rjToggleButton5.TabIndex = 36;
-            this.rjToggleButton5.UseVisualStyleBackColor = true;
-            // 
-            // rjToggleButton6
-            // 
-            this.rjToggleButton6.Checked = true;
-            this.rjToggleButton6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.rjToggleButton6.Location = new System.Drawing.Point(681, 145);
-            this.rjToggleButton6.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton6.Name = "rjToggleButton6";
-            this.rjToggleButton6.OffBackColor = System.Drawing.Color.DarkGray;
-            this.rjToggleButton6.OffToggleColor = System.Drawing.Color.Silver;
-            this.rjToggleButton6.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(128)))), ((int)(((byte)(244)))));
-            this.rjToggleButton6.OnToggleColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(128)))), ((int)(((byte)(244)))));
-            this.rjToggleButton6.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton6.SolidStyle = false;
-            this.rjToggleButton6.TabIndex = 34;
-            this.rjToggleButton6.UseVisualStyleBackColor = true;
-            this.rjToggleButton6.CheckedChanged += new System.EventHandler(this.rjToggleButton6_CheckedChanged);
-            // 
-            // rjToggleButton3
-            // 
-            this.rjToggleButton3.Checked = true;
-            this.rjToggleButton3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.rjToggleButton3.Location = new System.Drawing.Point(189, 356);
-            this.rjToggleButton3.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton3.Name = "rjToggleButton3";
-            this.rjToggleButton3.OffBackColor = System.Drawing.Color.LightSteelBlue;
-            this.rjToggleButton3.OffToggleColor = System.Drawing.Color.White;
-            this.rjToggleButton3.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(26)))), ((int)(((byte)(240)))));
-            this.rjToggleButton3.OnToggleColor = System.Drawing.Color.Black;
-            this.rjToggleButton3.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton3.TabIndex = 31;
-            this.rjToggleButton3.UseVisualStyleBackColor = true;
-            // 
-            // rjToggleButton2
-            // 
-            this.rjToggleButton2.Checked = true;
-            this.rjToggleButton2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.rjToggleButton2.Location = new System.Drawing.Point(226, 251);
-            this.rjToggleButton2.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton2.Name = "rjToggleButton2";
-            this.rjToggleButton2.OffBackColor = System.Drawing.Color.LightSlateGray;
-            this.rjToggleButton2.OffToggleColor = System.Drawing.Color.LightSteelBlue;
-            this.rjToggleButton2.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.rjToggleButton2.OnToggleColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(231)))), ((int)(((byte)(248)))));
-            this.rjToggleButton2.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton2.TabIndex = 28;
-            this.rjToggleButton2.UseVisualStyleBackColor = true;
-            // 
-            // rjToggleButton1
-            // 
-            this.rjToggleButton1.Location = new System.Drawing.Point(189, 145);
-            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.Name = "rjToggleButton1";
-            this.rjToggleButton1.OffBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(175)))), ((int)(((byte)(182)))));
-            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(128)))), ((int)(((byte)(244)))));
-            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.Size = new System.Drawing.Size(200, 60);
-            this.rjToggleButton1.TabIndex = 26;
-            this.rjToggleButton1.UseVisualStyleBackColor = true;
-            this.rjToggleButton1.CheckedChanged += new System.EventHandler(this.rjToggleButton1_CheckedChanged);
-            // 
             // FormToggleButton
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,24 +183,19 @@
             this.ClientSize = new System.Drawing.Size(984, 511);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.rjToggleButton4);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.rjToggleButton5);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.rjToggleButton6);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.rjToggleButton3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.rjToggleButton2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rjToggleButton1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormToggleButton";
             this.Text = "CUSTOM CONTROLS";
+            this.Load += new System.EventHandler(this.FormToggleButton_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

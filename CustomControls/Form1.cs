@@ -1,5 +1,5 @@
 ﻿using CustomControls.RJControls;
-using CustomControls.Testing;
+using CustomControls.Test;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -117,6 +117,41 @@ namespace CustomControls
         private void rjButton5_Click(object sender, EventArgs e)
         {
             MessageBox.Show(rjTextBox1.PlaceholderText);
+        }
+
+        private void btnFormButton_Click(object sender, EventArgs e)
+        {
+            new FormButton().Show(this);
+        }
+
+        private void btnFormComboBox_Click(object sender, EventArgs e)
+        {
+            new FormComboBox().Show(this);
+        }
+
+        private void btnDatePicker_Click(object sender, EventArgs e)
+        {
+            new FormDatePicker().Show(this);
+        }
+
+        private void btnMiniatura_Click(object sender, EventArgs e)
+        {
+            new FormMiniatura().Show(this);
+        }
+
+        private void btnFormRadioButton_Click(object sender, EventArgs e)
+        {
+            new FormRadioButton().Show();
+        }
+
+        private void btnTextBox_Click(object sender, EventArgs e)
+        {
+            new FormTextBox().Show(this);
+        }
+
+        private void btnFormToggleButton_Click(object sender, EventArgs e)
+        {
+            new FormToggleButton().Show(this);
         }
     }
 }

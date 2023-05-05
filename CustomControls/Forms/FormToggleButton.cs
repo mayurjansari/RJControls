@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CustomControls.Testing
+namespace CustomControls.Test
 {
     public partial class FormToggleButton : Form
     {
@@ -75,6 +75,11 @@ namespace CustomControls.Testing
 
                 }
             }
+        }
+
+        private void FormToggleButton_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CustomControls.Testing
+namespace CustomControls.Test
 {
     public partial class FormDatePicker : Form
     {

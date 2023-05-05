@@ -1,4 +1,4 @@
-﻿namespace CustomControls.Testing
+﻿namespace CustomControls.Test
 {
     partial class FormMiniatura
     {
